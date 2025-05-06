@@ -5,7 +5,6 @@
 </template>
 
 <script setup lang="ts">
-  import { defineProps, withDefaults } from 'vue';
   interface MyProps {
     url: string;
     className?: string;
