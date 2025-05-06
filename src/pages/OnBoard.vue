@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div
     class="grid grid-flow-row lg:grid-cols-2 lg:gap-20 py-20 lg:py-[120px] px-4 lg:px-[152px] effort-onboard"
     id="how_it_works"
@@ -19,6 +20,35 @@
           >
           </EffortItem>
           <ImageItem :url="item.imageUrl" class-name="lg:hidden full-fit" />
+=======
+  <div class="grid grid-flow-row lg:grid-cols-2 lg:gap-20 py-20 lg:py-[120px] px-4 lg:px-[152px] effort-onboard" id="how_it_works">
+        <div class="onboard">
+            <TitleComponent sub-title="How it works" main-title="Effortless Onboarding"/>
+            <div class="mt-12" ref="parentElement">
+                <div v-for="item in onboards" :key="item.id" :data-target="item.dataTarget" class="items-center ml-0 mb-5 lg:mb-12 effort-item-container">
+                    <EffortItem :e-icon-url="item.eIconUrl" :effort-title="item.effortTitle" :effort-description="item.effortDescription" >
+                    </EffortItem>
+                    <ImageItem :url="item.imageUrl" class-name="lg:hidden full-fit"/>
+                </div>
+            </div>
+        </div>
+        <div class="hidden md:block relative">
+            <div id="imagen-steps" ref="img1" class="app-nav-content absolute full-fit">
+                <img class="w-full mx-auto" src="@/assets/images/imagen-steps.svg" alt="Eos nisi wisi at pereunt quas nisi">
+            </div>
+            <div ref="img2" id="quick-setup" class="app-nav-content absolute full-fit">
+                <img class="w-full mx-auto" src="@/assets/images/quick-setup.svg" alt="Eos nisi wisi at pereunt quas nisi">
+            </div>
+            <div ref="img3" id="e-events" class="app-nav-content absolute full-fit">
+                <img class="w-full mx-auto" src="@/assets/images/e-events.svg" alt="Eos nisi wisi at pereunt quas nisi">
+            </div>
+            <div ref="img4" id="ordering" class="app-nav-content absolute full-fit">
+                <img class="w-full mx-auto" src="@/assets/images/ordering.svg" alt="Eos nisi wisi at pereunt quas nisi">
+            </div>
+            <div ref="img5" id="wrap-night" class="app-nav-content absolute full-fit">
+                <img class="w-full mx-auto" src="@/assets/images/wrap-night.svg" alt="Eos nisi wisi at pereunt quas nisi">
+            </div>
+>>>>>>> master
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@
           <div class="items-center pt-2 md:block md:pt-0">
             <div
               class="rounded-full md:-mt-[5px] md:ml-0 md:mr-0 ">
-              <img src="src/assets/images/Vector.svg">
+              <img src="@/assets/images/Vector.svg">
             </div>
             <p class="mt-2 text-sm ">
               Desarrollo de la aplicación
@@ -38,7 +38,7 @@
           <div class="items-center pt-2 md:block md:pt-0">
             <div
               class="rounded-full md:-mt-[5px] md:ml-0 md:mr-0 ">
-              <img src="src/assets/images/radio_button_unchecked.svg">
+              <img src="@/assets/images/radio_button_unchecked.svg">
             </div>
             <p class="mt-2 text-sm ">
               Integración con Square
@@ -58,41 +58,41 @@
         title: '10/10/2023',
         description: 'Diseño de la aplicación',
         state: 'complete',
-        src: 'src/assets/images/check_circle.svg'
+        src: '@/assets/images/check_circle.svg'
       },
       {
         id: '2',
         title: 'Actualidad',
         description: 'Desarrollo de la aplicación',
         state: 'active',
-        src: 'src/assets/images/Vector.svg'
+        src: '@/assets/images/Vector.svg'
       },
       {
         id: '3',
         title: 'Próximamente',
         description: 'Integración con Square',
         state: 'incomplete',
-        src: "src/assets/images/radio_button_unchecked.svg"
+        src: "@/assets/images/radio_button_unchecked.svg"
       },
       {
         id: '4',
         title: 'Próximamente',
         description: 'Launch con cliente piloto',
         state: 'incomplete',
-        src: "src/assets/images/radio_button_unchecked.svg"
+        src: "@/assets/images/radio_button_unchecked.svg"
       },
       {
         id: '5',
         title: 'Próximamente',
         description: 'Partner up con 5 clubs que usen Square y 10 que usen Toast solo para promoción',
         state: 'incomplete',
-        src: "src/assets/images/radio_button_unchecked.svg"
+        src: "@/assets/images/radio_button_unchecked.svg"
       },
       {
         title: 'Próximamente',
         description: 'Integración con Toast',
         state: 'incomplete',
-        src: "src/assets/images/radio_button_unchecked.svg"
+        src: "@/assets/images/radio_button_unchecked.svg"
       },
       
   ];
