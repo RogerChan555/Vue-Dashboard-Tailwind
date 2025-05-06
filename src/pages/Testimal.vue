@@ -18,7 +18,7 @@
             <div class="grid grid-flow-row lg:grid-cols-4 lg:gap-10 items-center justify-items-center">
                 <div class="lg:block hidden">
                     <button class="carousel-nav__button testimonial-sc__button-prev">
-                        <img src="src/assets/images/arrow-back.svg">
+                        <img src="@/assets/images/arrow-back.svg">
                     </button>
                 </div>
                 <div class="mb-6 lg:mb-0">
@@ -31,7 +31,7 @@
                 </div>
                 <div class="lg:block hidden">
                     <button class="carousel-nav__button testimonial-sc__button-next">
-                        <img src="src/assets/images/arrow-forward.svg">
+                        <img src="@/assets/images/arrow-forward.svg">
                     </button>
                 </div>
             </div>
@@ -41,10 +41,10 @@
       <footer class="block lg:hidden">
         <div class="flex justify-between">
           <button class="carousel-nav__button testimonial-sc__button-prev">
-            <img src="src/assets/images/arrow-back.svg">
+            <img src="@/assets/images/arrow-back.svg">
           </button>
           <button class="carousel-nav__button testimonial-sc__button-next">
-                <img src="src/assets/images/arrow-forward.svg">
+                <img src="@/assets/images/arrow-forward.svg">
           </button>
         </div>
       </footer>
@@ -59,25 +59,25 @@
     
     const testimonials = [
         {
-            avatar: 'src/assets/images/avatar-anisha.png',
+            avatar: '@/assets/images/avatar-anisha.png',
             name: 'Nick Jonas',
             testimony: '“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque.”',
             role: 'role'
         },
         {
-            avatar: 'src/assets/images/avatar-ali.png',
+            avatar: '@/assets/images/avatar-ali.png',
             name: 'Ali Bravo',
             testimony: '“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”',
             role: 'role'
         },
         {
-            avatar: 'src/assets/images/avatar-richard.png',
+            avatar: '@/assets/images/avatar-richard.png',
             name: 'Richard Watts',
             testimony: '“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”',
             role: 'role'
         },
         {
-            avatar: 'src/assets/images/avatar-shanai.png',
+            avatar: '@/assets/images/avatar-shanai.png',
             name: 'Shanai Gough',
             testimony: '“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”',
             role: 'role'
