@@ -6,11 +6,11 @@
                 <h4 class="font-semibold text-3xl lg:text-4xl">Learn More About The  Features of Swin Drinks</h4>
                 <p class="font-normal text-lg lg:text-lg lg:max-w-lg py-8">Ready to experience the power of our Swin Drinks? Connect with our team to schedule a personalized demo. We're here to answer your questions and showcase how our solution can benefit you.</p>
                 <div class="lg:hidden flex mb-2">
-                    <img src="src/assets/images/call.svg"/>
+                    <img src="@/assets/images/call.svg"/>
                     <a class="email-color lg:text-left">+1234 456 678 89</a>
                 </div>
                 <div class="flex gap-2">
-                    <img src="src/assets/images/email.svg"/>
+                    <img src="@/assets/images/email.svg"/>
                     <a class="email-color lg:text-left">help@swinapp.com</a>
                 </div>
             </div>
