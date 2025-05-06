@@ -4,12 +4,12 @@
           <MainButton text="I want a Demo" class="drop w-[100%] lg:w-fit" />
         </ItemWithButton>
         <div class="lg:flex hidden" id="image">
-            <ImageItem url="src/assets/images/sevents.svg" class-name="lg:block hidden z-10" />
-            <ImageItem url="src/assets/images/stickets.svg" class-name="lg:block hidden py-2 mt-14 -ml-10" />
+            <ImageItem url="@/assets/images/sevents.svg" class-name="lg:block hidden z-10" />
+            <ImageItem url="@/assets/images/stickets.svg" class-name="lg:block hidden py-2 mt-14 -ml-10" />
         </div>
         <div class="lg:hidden flex" id="image">
-            <ImageItem url="src/assets/images/sevents.svg" class-name="z-10" img-class="w-[45rem]" />
-            <ImageItem url="src/assets/images/stickets.svg" class-name="mt-14 -ml-10" img-class="w-[45rem]" />
+            <ImageItem url="@/assets/images/sevents.svg" class-name="z-10" img-class="w-[45rem]" />
+            <ImageItem url="@/assets/images/stickets.svg" class-name="mt-14 -ml-10" img-class="w-[45rem]" />
         </div>
     </div>
 </template>
@@ -23,7 +23,7 @@
 
 <style scoped>
   .slider-section {
-    background: linear-gradient(238deg, #0E1010 0%, rgba(14, 16, 16, 0.00) 69.08%), linear-gradient(122deg, rgba(14, 16, 16, 0.90) 30.92%, rgba(14, 16, 16, 0.00) 100%), linear-gradient(107deg, #0E1010 0%, rgba(14, 16, 16, 0.50) 100%), url('src/assets/images/back-img.png'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(238deg, #0E1010 0%, rgba(14, 16, 16, 0.00) 69.08%), linear-gradient(122deg, rgba(14, 16, 16, 0.90) 30.92%, rgba(14, 16, 16, 0.00) 100%), linear-gradient(107deg, #0E1010 0%, rgba(14, 16, 16, 0.50) 100%), url('@/assets/images/back-img.png'), lightgray 50% / cover no-repeat;
   }
   
 </style>
