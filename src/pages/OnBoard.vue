@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="grid grid-flow-row lg:grid-cols-2 lg:gap-20 py-20 lg:py-[120px] px-4 lg:px-[152px] effort-onboard" id="how_it_works">
         <div class="onboard">
             <TitleComponent sub-title="How it works" main-title="Effortless Onboarding"/>
@@ -27,39 +28,41 @@
                 <img class="w-full mx-auto" src="@/assets/images/wrap-night.svg" alt="Eos nisi wisi at pereunt quas nisi">
             </div>
         </div>
+    </div>
+    
     <div class="hidden md:block relative">
       <div id="imagen-steps" ref="img1" class="app-nav-content absolute full-fit">
         <img
           class="w-full mx-auto"
-          src="src/assets/images/imagen-steps.svg"
+          src="@/assets/images/imagen-steps.svg"
           alt="Eos nisi wisi at pereunt quas nisi"
         />
       </div>
       <div ref="img2" id="quick-setup" class="app-nav-content absolute full-fit">
         <img
           class="w-full mx-auto"
-          src="src/assets/images/quick-setup.svg"
+          src="@/assets/images/quick-setup.svg"
           alt="Eos nisi wisi at pereunt quas nisi"
         />
       </div>
       <div ref="img3" id="e-events" class="app-nav-content absolute full-fit">
         <img
           class="w-full mx-auto"
-          src="src/assets/images/e-events.svg"
+          src="@/assets/images/e-events.svg"
           alt="Eos nisi wisi at pereunt quas nisi"
         />
       </div>
       <div ref="img4" id="ordering" class="app-nav-content absolute full-fit">
         <img
           class="w-full mx-auto"
-          src="src/assets/images/ordering.svg"
+          src="@/assets/images/ordering.svg"
           alt="Eos nisi wisi at pereunt quas nisi"
         />
       </div>
       <div ref="img5" id="wrap-night" class="app-nav-content absolute full-fit">
         <img
           class="w-full mx-auto"
-          src="src/assets/images/wrap-night.svg"
+          src="@/assets/images/wrap-night.svg"
           alt="Eos nisi wisi at pereunt quas nisi"
         />
       </div>
@@ -150,47 +153,47 @@ onMounted(() => {
 const onboards = [
   {
     id: '01',
-    eIconUrl: 'src/assets/images/number-1.svg',
+    eIconUrl: '@/assets/images/number-1.svg',
     effortTitle: 'POS Integration:',
     effortDescription:
       'Connect our app with your POS to allow your customers to order directly from their phones. No new hardware, no additional training—just more orders and satisfied customers.',
-    imageUrl: 'src/assets/images/imagen-steps.svg',
+    imageUrl: '@/assets/images/imagen-steps.svg',
     dataTarget: 'imagen-steps'
   },
   {
     id: '02',
-    eIconUrl: 'src/assets/images/number-2.svg',
+    eIconUrl: '@/assets/images/number-2.svg',
     effortTitle: 'Quick Setup',
     effortDescription:
       "Easily create your club's profile in our system. We'll handle the initial setup, so you can focus on what you do best",
-    imageUrl: 'src/assets/images/quick-setup.svg',
+    imageUrl: '@/assets/images/quick-setup.svg',
     dataTarget: 'quick-setup'
   },
   {
     id: '03',
-    eIconUrl: 'src/assets/images/number-3.svg',
+    eIconUrl: '@/assets/images/number-3.svg',
     effortTitle: 'Create your Events',
     effortDescription:
       'Organize events and control access with ease, enhancing the customer experience from the start',
-    imageUrl: 'src/assets/images/e-events.svg',
+    imageUrl: '@/assets/images/e-events.svg',
     dataTarget: 'e-events'
   },
   {
     id: '04',
-    eIconUrl: 'src/assets/images/number-4.svg',
+    eIconUrl: '@/assets/images/number-4.svg',
     effortTitle: 'In-App Ordering:',
     effortDescription:
       'Customers can order their next round without leaving their conversation, and your staff can serve without skipping a beat',
-    imageUrl: 'src/assets/images/ordering.svg',
+    imageUrl: '@/assets/images/ordering.svg',
     dataTarget: 'ordering'
   },
   {
     id: '05',
-    eIconUrl: 'src/assets/images/number-5.svg',
+    eIconUrl: '@/assets/images/number-5.svg',
     effortTitle: ' Wrap-Up The Night',
     effortDescription:
       "Close your night effortlessly—your current routines remain unchanged. Then, dive into the app to see a snapshot of your venue's performance, from ticket sales to patron preferences, unlocking insights designed to inform and boost your business strategy.",
-    imageUrl: 'src/assets/images/wrap-night.svg',
+    imageUrl: '@/assets/images/wrap-night.svg',
     dataTarget: 'wrap-night'
   }
 ]
